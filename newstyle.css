@@ -1,6 +1,38 @@
+body {
+  border: 1px solid rgb(94, 255, 0);
+  width: auto;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  border: 0px solid rgb(94, 255, 0);
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  border: 0px solid rgb(94, 255, 0);
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  width: 350px;
+  background-color: #f3f2f2;
+  margin: auto;
+}
+
 .parent {
   background-color: rgba(255, 255, 255, 0.174);
-  width: 100%;
+  width: 350px;
   max-width: 162px;
 }
 
@@ -11,40 +43,28 @@
 }
 
 .child-two {
+  display: flex;
   background-color: #f3f2f2;
   position: absolute;
   top: 310px;
-  height: 50px;
+  height: 52px;
   width: 330px;
   border-radius: 20px 20px 0px 0px;
   padding: 10px;
 }
 
 .child-three {
-  width: 350px; /*1*/
+  display: flex;
+  width: 340px; /*1*/
   background-color: #f3f2f2;
-}
-
-.menucard {
-  width: 330px;
-  height: 60px;
-  padding: 6px;
-  border-radius: 20px 20px 20px 20px;
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
-  margin-top: 2px;
-}
-
-nav {
-  background-color: #f3f2f2;
-  width: 350px;
+  height: 20px;
+  padding: 5px;
 }
 
 .menumenu {
-  width: 350px; /*1*/
+  width: 330px; /*1*/
   height: 70px; /*1*/
   margin-bottom: 20px;
-  background-color: white; /*3*/
   box-shadow: 0px 5px 20px #999; /*4*/
   border-radius: 20px;
 }
@@ -78,3 +98,66 @@ nav {
   margin-left: -20px;
   justify-content: right;
 }
+
+.pinkbutton {
+  display: flex;
+  justify-content: center;
+  padding: 15px 13px;
+  opacity: 1;
+  font-weight: bold;
+  color: white;
+  background-color: #ff79da;
+  border-radius: 20px 20px 20px 20px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin: auto;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  width: 350px;
+  background-color: #f3f2f2;
+  margin: auto;
+}
+
+/* START FOOTER */
+
+footer {
+  display: flex;
+  justify-content: left;
+  width: auto;
+  padding: 30px;
+  background: #303030;
+  flex-wrap: wrap;
+  border: 0px solid rgb(255, 225, 0); /* border area */
+  margin-top: 30px;
+}
+
+footer div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+#logofooter {
+  display: flex;
+  width: 100%;
+  max-width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footertext {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: white;
+}
+
+/* END FOOTER */
