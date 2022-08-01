@@ -1,0 +1,80 @@
+.parent {
+  background-color: rgba(255, 255, 255, 0.174);
+  width: 100%;
+  max-width: 162px;
+}
+
+.child-one {
+  background-color: blanchedalmond;
+  width: 350px; /*1*/
+  height: 340px; /*1*/
+}
+
+.child-two {
+  background-color: #f3f2f2;
+  position: absolute;
+  top: 310px;
+  height: 50px;
+  width: 330px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px;
+}
+
+.child-three {
+  width: 350px; /*1*/
+  background-color: #f3f2f2;
+}
+
+.menucard {
+  width: 330px;
+  height: 60px;
+  padding: 6px;
+  border-radius: 20px 20px 20px 20px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin-top: 2px;
+}
+
+nav {
+  background-color: #f3f2f2;
+  width: 350px;
+}
+
+.menumenu {
+  width: 350px; /*1*/
+  height: 70px; /*1*/
+  margin-bottom: 20px;
+  background-color: white; /*3*/
+  box-shadow: 0px 5px 20px #999; /*4*/
+  border-radius: 20px;
+}
+
+.menutext {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.menutext2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.menutext3 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: -25px;
+  margin-left: -20px;
+  justify-content: right;
+}
