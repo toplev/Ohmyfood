@@ -4,7 +4,7 @@
   "description": "Oh my Food - JSON",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/index.css"
+    "sass": "sass --watch /Users/leo/Documents/GitHub/Ohmyfood/sass/main.scss:/Users/leo/Documents/GitHub/Ohmyfood/index.css"
   },
   "repository": {
     "type": "git",
