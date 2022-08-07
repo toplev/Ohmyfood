@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Oh my Food - JSON",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toplev/Ohmyfood.git"
+  },
+  "author": "Levan TOPOURIA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toplev/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/toplev/Ohmyfood#readme"
+}
