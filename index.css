@@ -1,22 +1,21 @@
 body {
-  border: 0px solid rgb(94, 255, 0);
-  width: auto;
-  height: 100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
 }
 
 /* START HEADER */
 header {
   display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  border: 0px solid rgb(94, 255, 0);
   justify-content: center;
+  width: 375px;
+  margin: auto;
+  box-shadow: 0px 5px 19px #999;
 }
 
 #logo {
   width: 100%;
   max-width: 162px;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 15px;
 }
 
@@ -27,10 +26,13 @@ header {
 .location {
   display: flex;
   border: none;
-  opacity: 1; /* Firefox */
+  opacity: 1;
   justify-content: center;
-  width: 100%;
   background-color: #d0d1d154;
+  width: 335px;
+  height: 20px;
+  margin: auto;
+  padding: 20px;
 }
 
 form {
@@ -38,41 +40,33 @@ form {
   border: 0px solid rgb(94, 255, 0);
 }
 
-form input {
-  font-size: 20px;
-  width: 100%;
-  border: none;
+form .fa-location-dot {
+  padding: 3px 15px;
 }
 
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(0, 0, 0);
-  opacity: 1; /* Firefox */
-  background-color: #d0d1d154;
+.textlocation {
+  font-size: 20px;
 }
 /* END LOCATION */
 /* START ARTICLE */
 
 article {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  border: 0px solid rgb(94, 255, 0);
-  justify-content: center;
   text-align: center; /*1*/
   background-color: #d0d1d12f;
+  width: 375px;
+  margin: auto;
 }
 
 h2 {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border: 0px solid rgb(94, 255, 0);
-  margin-left: 10px;
+  padding: 10px;
 }
 
 .text {
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .pinkbutton {
@@ -80,13 +74,14 @@ h2 {
   justify-content: center;
   padding: 15px 13px;
   opacity: 1;
-  font-weight: bold;
   color: white;
   background-color: #ff79da;
+  background: linear-gradient(#ad00fd, 10%, #d526de);
   border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 5px 19px #240a25;
   width: auto;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
@@ -98,6 +93,8 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   border: 0px solid rgb(94, 255, 0);
+  width: 350px;
+  margin: auto;
 }
 
 .greybutton {
@@ -119,26 +116,27 @@ nav {
 
 main {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  border: 0px solid rgb(94, 255, 0);
+  width: 375px;
+  margin: auto;
+  background-color: #f3f2f2;
+  margin-bottom: 0px;
+  height: auto;
 }
 
 .menu {
   width: 350px; /*1*/
-  height: 270px; /*1*/
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-bottom: 20px;
+  height: 300px; /*1*/
   background-color: white; /*3*/
   box-shadow: 0px 5px 20px #999; /*4*/
   border-radius: 20px;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .menuimage {
   width: 350px; /*1*/
-  height: 200px; /*1*/
+  height: 220px; /*1*/
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
@@ -168,12 +166,13 @@ main {
 footer {
   display: flex;
   justify-content: left;
-  width: auto;
+  width: 315px;
   padding: 30px;
   background: #303030;
   flex-wrap: wrap;
   border: 0px solid rgb(255, 225, 0); /* border area */
-  margin-top: 60px;
+  margin-top: 0px;
+  margin: auto;
 }
 
 footer div {
