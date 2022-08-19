@@ -2,16 +2,18 @@ body {
   border: 0px solid rgb(94, 255, 0);
   width: auto;
   height: 100%;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
+  height: 50px;
   border: 0px solid rgb(94, 255, 0);
   justify-content: center;
   width: 350px;
   margin: auto;
+  box-shadow: 0px 5px 19px #999;
 }
 
 article {
@@ -40,10 +42,36 @@ nav {
   max-width: 162px;
 }
 
+#logo {
+  display: flex;
+  width: 175px;
+  max-width: 162px;
+  margin-top: 15px;
+  margin-left: -75px;
+}
+
+.fa-arrow-left {
+  display: flex;
+  margin-right: 140px;
+  margin-top: 20px;
+  position: relative;
+}
+
+a {
+  cursor: pointer;
+  color: black;
+  font-style: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
 .child-one {
   background-color: blanchedalmond;
   width: 350px; /*1*/
-  height: 340px; /*1*/
+  height: 324px; /*1*/
 }
 
 .child-two {
@@ -55,6 +83,9 @@ nav {
   width: 330px;
   border-radius: 20px 20px 0px 0px;
   padding: 10px;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .child-three {
@@ -63,6 +94,18 @@ nav {
   background-color: #f3f2f2;
   height: 20px;
   padding: 5px;
+  margin-bottom: 20px;
+}
+
+.child-three:after {
+  display: flex;
+  content: "";
+  background: #99e2d0;
+  display: block;
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  margin-top: 25px;
 }
 
 .menumenu {
@@ -97,8 +140,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10px;
-  margin-top: -25px;
-  margin-left: -20px;
+  margin-top: -28px;
+  margin-left: -10px;
   justify-content: right;
 }
 
@@ -107,14 +150,20 @@ nav {
   justify-content: center;
   padding: 15px 13px;
   opacity: 1;
-  font-weight: bold;
   color: white;
   background-color: #ff79da;
+  background: linear-gradient(#af02ff, 10%, #d526de);
   border-radius: 20px 20px 20px 20px;
-  width: 150px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  box-shadow: 0px 5px 19px #240a25;
+  width: auto;
   margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.pinkbutton:hover {
+  display: flex;
+  cursor: pointer;
+  box-shadow: 0px 5px 30px 5px #ff79da; /*4*/
 }
 
 .button {
@@ -135,7 +184,7 @@ footer {
   justify-content: left;
   width: 290px;
   padding: 30px;
-  background: #303030;
+  background: #353535;
   flex-wrap: wrap;
   border: 0px solid rgb(255, 225, 0); /* border area */
   margin-top: 0px;
@@ -151,9 +200,9 @@ footer div {
 #logofooter {
   display: flex;
   width: 100%;
-  max-width: 100px;
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: -30px;
 }
 
 .footertext {
@@ -161,8 +210,82 @@ footer div {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 4px;
   color: white;
+  margin-left: 20px;
+}
+
+.fa-utensils {
+  display: flex;
+  position: absolute;
+  margin-left: -25px;
+}
+
+.fa-handshake-angle {
+  display: flex;
+  position: absolute;
+  margin-left: -25px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 /* END FOOTER */
+
+.menumenu {
+  border-radius: 10px;
+  background: -webkit-linear-gradient(0deg, transparent 50%, #99e2d0 50%);
+  background-size: 700px 80px;
+  border: 0px solid #27e8a7;
+  transition: 0.8s;
+  width: 335px;
+}
+
+.menumenu:hover {
+  background-position: -100px 0;
+  transition: 0.8s;
+  width: 300px;
+}
+
+/* START HEART */
+
+.icon {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 10px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 280px;
+  margin-top: -55px;
+}
+
+.icon svg {
+  overflow: visible;
+  width: 1.5rem;
+}
+
+.icon path {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1550;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+.icon .heart-background {
+  display: none;
+}
+.icon .heart-main:hover path {
+  animation: stroke-animation 2s ease-in-out forwards;
+}
+
+@keyframes stroke-animation {
+  100% {
+    fill: #ff79da;
+    stroke: none;
+  }
+}
+
+/* END HEART */

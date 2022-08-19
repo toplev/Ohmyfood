@@ -1,0 +1,52 @@
+.icon {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 2;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon svg {
+  overflow: visible;
+  width: 2rem;
+}
+
+.icon path {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1550;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.icon .heart-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  stroke: none;
+}
+
+.icon .heart-main:hover path {
+  -webkit-animation: stroke-animation 2s ease-in-out forwards;
+          animation: stroke-animation 2s ease-in-out forwards;
+}
+
+.icon .heart-main:active path {
+  -webkit-animation: stroke-animation 2s ease-in-out forwards;
+          animation: stroke-animation 2s ease-in-out forwards;
+}
+
+@-webkit-keyframes stroke-animation {
+  100% {
+    fill: #d526de;
+    stroke: none;
+  }
+}
+
+@keyframes stroke-animation {
+  100% {
+    fill: #d526de;
+    stroke: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
