@@ -62,7 +62,6 @@ nav {
 a {
   cursor: pointer;
   color: black;
-  font-style: none;
   text-decoration: none;
 }
 
@@ -204,24 +203,6 @@ footer a {
 
 /* END FOOTER */
 
-.menumenu {
-  border-radius: 10px;
-  background: -webkit-linear-gradient(0deg, transparent 50%, #99e2d0 50%);
-  background-size: 700px 80px;
-  border: 0px solid #27e8a7;
-  transition: 0.8s;
-  width: 340px;
-}
-
-.menumenu:hover {
-  background-position: -100px 0;
-  transition: 0.8s;
-  width: 260px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
 /* START HEART */
 
 .icon {
@@ -242,7 +223,6 @@ footer a {
 .icon path {
   stroke-dashoffset: 0;
   stroke-dasharray: 1550;
-  -webkit-transform-origin: center;
   transform-origin: center;
 }
 
@@ -356,7 +336,7 @@ footer a {
     transform: scaleX(0);
   }
   100% {
-    transform: scaleX(-50px);
+    transform: scaleX(1);
   }
 }
 
@@ -427,6 +407,7 @@ footer a {
   }
 
   .child-two {
+    display: none;
     width: 100%;
     justify-content: center;
     position: inherit;
@@ -447,11 +428,15 @@ footer a {
 
   h2 {
     display: flex;
+    position: relative;
+    font-size: 30px;
+    font-style: italic;
+    justify-content: center;
   }
 
   .icon {
-    margin-top: -60px;
-    margin-right: -40px;
+    margin-top: 33px;
+    margin-left: 40px;
   }
 
   nav {

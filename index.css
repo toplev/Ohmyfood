@@ -218,23 +218,21 @@ main {
 }
 
 .fa-heart {
-  color: #ffffff(255, 255, 255);
+  color: #ffffff;
   position: absolute;
   margin-left: 300px;
   margin-top: -30px;
   cursor: pointer;
   border-radius: 50px;
-  background: #ffffff;
 }
 
 #logo {
-  color: #ffffff(255, 255, 255);
+  color: #ffffff;
   position: absolute;
   margin-left: 300px;
   margin-top: -30px;
   cursor: pointer;
   border-radius: 50px;
-  background: #ffffff;
 }
 
 .fa-heart:hover .fa-store {
@@ -251,7 +249,6 @@ main {
 
 .fa-heart:hover::before {
   color: #9356dc;
-  color: linear-gradient(315deg, #9356dc, #ffffff);
   transition: 0.8s;
   fill: transparent;
 }
@@ -487,7 +484,6 @@ section {
 .icon path {
   stroke-dashoffset: 0;
   stroke-dasharray: 1550;
-  -webkit-transform-origin: center;
   transform-origin: center;
 }
 
@@ -520,15 +516,6 @@ section {
   background-color: #9be4cc;
   margin-left: 225px;
   margin-top: 15px;
-}
-
-.b3 {
-  background: -webkit-linear-gradient(0deg, transparent 50%, #27e8a7 50%);
-  background-size: 400px 80px;
-}
-
-.b3:hover {
-  background-position: 200px 0;
 }
 
 a {
