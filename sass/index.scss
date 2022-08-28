@@ -80,8 +80,6 @@ body {
 
 /* END Plate */
 
-
-
 /* START HEADER */
 header {
   display: flex;
@@ -122,7 +120,6 @@ header {
 
 form {
   display: flex;
-  border: 0px solid rgb(94, 255, 0);
 }
 
 form .fa-location-dot {
@@ -138,7 +135,7 @@ form .fa-location-dot {
 article {
   display: flex;
   flex-wrap: wrap;
-  text-align: center; /*1*/
+  text-align: center;
   background-color: #d0d1d12f;
   width: 375px;
   margin: auto;
@@ -174,7 +171,7 @@ h2 {
 .pinkbutton:hover {
   display: flex;
   cursor: pointer;
-  box-shadow: 0px 5px 30px 5px #ff79da; /*4*/
+  box-shadow: 0px 5px 30px 5px #ff79da; 
 }
 
 /* END ARTICLE */
@@ -184,7 +181,6 @@ nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 0px solid rgb(94, 255, 0);
   width: 350px;
   margin: auto;
 }
@@ -207,7 +203,7 @@ nav {
 .greybutton:hover {
   display: flex;
   cursor: pointer;
-  box-shadow: 0px 5px 30px 5px #ff79da; /*4*/
+  box-shadow: 0px 5px 30px 5px #ff79da;
 }
 
 .fa-mobile-screen-button {
@@ -257,10 +253,10 @@ main {
 }
 
 .menu {
-  width: 350px; /*1*/
-  height: 300px; /*1*/
-  background-color: white; /*3*/
-  box-shadow: 0px 5px 20px #999; /*4*/
+  width: 350px;
+  height: 300px; 
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999; 
   border-radius: 20px;
   justify-content: center;
   margin: auto;
@@ -268,8 +264,8 @@ main {
 }
 
 .menuimage {
-  width: 350px; /*1*/
-  height: 220px; /*1*/
+  width: 350px;
+  height: 220px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
@@ -294,15 +290,6 @@ main {
 }
 
 .fa-heart {
-  color: #ffffff;
-  position: absolute;
-  margin-left: 300px;
-  margin-top: -30px;
-  cursor: pointer;
-  border-radius: 50px;
-}
-
-#logo {
   color: #ffffff;
   position: absolute;
   margin-left: 300px;
@@ -354,7 +341,6 @@ footer {
   padding: 30px;
   background: #353535;
   flex-wrap: wrap;
-  border: 0px solid rgb(255, 225, 0); /* border area */
   margin-top: 0px;
   margin: auto;
 }
@@ -411,134 +397,6 @@ footer a {
 }
 
 /* END FOOTER */
-/* STYLE MENU */
-
-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border: 0px solid rgb(94, 255, 0);
-  justify-content: center;
-  text-align: left; /*1*/
-}
-
-.menuimagecard {
-  width: auto; /*1*/
-  height: 200px; /*1*/
-  object-fit: cover;
-  border-radius: 0px 0px 0px 0px;
-}
-
-.menumenu {
-  width: 350px; /*1*/
-  height: 70px; /*1*/
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  background-color: white; /*3*/
-  box-shadow: 0px 5px 20px #999; /*4*/
-  border-radius: 20px;
-  margin: auto;
-}
-
-.menuimagemenu {
-  width: 350px; /*1*/
-  height: 340px; /*1*/
-  border-radius: 0px 0px 0px 0px;
-}
-
-.menutextmenu {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 15px;
-  font-weight: bold;
-}
-
-.menutext2menu {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 15px;
-}
-
-.pinkbuttoncard {
-  display: flex;
-  justify-content: left;
-  padding: 15px 13px;
-  opacity: 1;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  background-color: #f3f2f2;
-  border-radius: 20px 20px 0px 0px;
-  width: 325px;
-  margin: auto;
-  margin-top: 30px;
-}
-
-.greybuttoncard {
-  display: flex;
-  justify-content: left;
-  padding: 15px 13px;
-  opacity: 100%;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  background-color: #f3f2f2;
-  width: 325px;
-  margin: auto;
-}
-
-.pinkbuttonmenu {
-  display: flex;
-  justify-content: left;
-  padding: 30px 13px;
-  opacity: 1;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
-  border-radius: 20px 20px 20px 20px;
-  width: 305px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.pinkbuttonclass {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border: 0px solid rgb(94, 255, 0);
-  justify-content: center;
-  text-align: center; /*1*/
-  background-color: #f3f2f2;
-  width: 351px;
-  margin: auto;
-}
-
-.menutext3 {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-  margin-top: -25px;
-  margin-left: -20px;
-  justify-content: right;
-}
-
-.menucard {
-  margin: auto;
-  width: 300px;
-  padding: 20px;
-  border-radius: 20px 20px 20px 20px;
-}
-
-.price {
-  float: right;
-}
 
 /* START HEART */
 
@@ -578,8 +436,9 @@ section {
 }
 
 /* END HEART */
+/* START GREEN BOX */
 
-.box3 {
+.greenbox {
   width: 110px;
   height: 40px;
   border: 1px solid #ccc;
@@ -598,6 +457,9 @@ a {
   color: #188964;
   text-decoration: none;
 }
+
+/* END GREEN BOX */
+
 
 @media (min-width: 522px) {
   body {

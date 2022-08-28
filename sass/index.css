@@ -168,7 +168,6 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 0px solid #5eff00;
 }
 
 form .fa-location-dot {
@@ -188,7 +187,6 @@ article {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
-  /*1*/
   background-color: #d0d1d12f;
   width: 375px;
   margin: auto;
@@ -238,7 +236,6 @@ h2 {
   cursor: pointer;
   -webkit-box-shadow: 0px 5px 30px 5px #ff79da;
           box-shadow: 0px 5px 30px 5px #ff79da;
-  /*4*/
 }
 
 /* END ARTICLE */
@@ -253,7 +250,6 @@ nav {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 0px solid #5eff00;
   width: 350px;
   margin: auto;
 }
@@ -284,7 +280,6 @@ nav {
   cursor: pointer;
   -webkit-box-shadow: 0px 5px 30px 5px #ff79da;
           box-shadow: 0px 5px 30px 5px #ff79da;
-  /*4*/
 }
 
 .fa-mobile-screen-button {
@@ -346,14 +341,10 @@ main {
 
 .menu {
   width: 350px;
-  /*1*/
   height: 300px;
-  /*1*/
   background-color: white;
-  /*3*/
   -webkit-box-shadow: 0px 5px 20px #999;
           box-shadow: 0px 5px 20px #999;
-  /*4*/
   border-radius: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -364,9 +355,7 @@ main {
 
 .menuimage {
   width: 350px;
-  /*1*/
   height: 220px;
-  /*1*/
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px 20px 0px 0px;
@@ -398,15 +387,6 @@ main {
 }
 
 .fa-heart {
-  color: #ffffff;
-  position: absolute;
-  margin-left: 300px;
-  margin-top: -30px;
-  cursor: pointer;
-  border-radius: 50px;
-}
-
-#logo {
   color: #ffffff;
   position: absolute;
   margin-left: 300px;
@@ -465,8 +445,6 @@ footer {
   background: #353535;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 0px solid #ffe100;
-  /* border area */
   margin-top: 0px;
   margin: auto;
 }
@@ -540,185 +518,6 @@ footer a {
 }
 
 /* END FOOTER */
-/* STYLE MENU */
-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border: 0px solid #5eff00;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: left;
-  /*1*/
-}
-
-.menuimagecard {
-  width: auto;
-  /*1*/
-  height: 200px;
-  /*1*/
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0px 0px 0px 0px;
-}
-
-.menumenu {
-  width: 350px;
-  /*1*/
-  height: 70px;
-  /*1*/
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  background-color: white;
-  /*3*/
-  -webkit-box-shadow: 0px 5px 20px #999;
-          box-shadow: 0px 5px 20px #999;
-  /*4*/
-  border-radius: 20px;
-  margin: auto;
-}
-
-.menuimagemenu {
-  width: 350px;
-  /*1*/
-  height: 340px;
-  /*1*/
-  border-radius: 0px 0px 0px 0px;
-}
-
-.menutextmenu {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 15px;
-  font-weight: bold;
-}
-
-.menutext2menu {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 15px;
-}
-
-.pinkbuttoncard {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  padding: 15px 13px;
-  opacity: 1;
-  font-weight: bold;
-  color: black;
-  background-color: #f3f2f2;
-  border-radius: 20px 20px 0px 0px;
-  width: 325px;
-  margin: auto;
-  margin-top: 30px;
-}
-
-.greybuttoncard {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  padding: 15px 13px;
-  opacity: 100%;
-  font-weight: bold;
-  color: black;
-  background-color: #f3f2f2;
-  width: 325px;
-  margin: auto;
-}
-
-.pinkbuttonmenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  padding: 30px 13px;
-  opacity: 1;
-  font-weight: bold;
-  color: black;
-  background-color: #ffffff;
-  border-radius: 20px 20px 20px 20px;
-  width: 305px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.pinkbuttonclass {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border: 0px solid #5eff00;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  /*1*/
-  background-color: #f3f2f2;
-  width: 351px;
-  margin: auto;
-}
-
-.menutext3 {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 10px;
-  margin-top: -25px;
-  margin-left: -20px;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
-.menucard {
-  margin: auto;
-  width: 300px;
-  padding: 20px;
-  border-radius: 20px 20px 20px 20px;
-}
-
-.price {
-  float: right;
-}
-
 /* START HEART */
 .icon {
   fill: transparent;
@@ -766,7 +565,8 @@ section {
 }
 
 /* END HEART */
-.box3 {
+/* START GREEN BOX */
+.greenbox {
   width: 110px;
   height: 40px;
   border: 1px solid #ccc;
@@ -786,6 +586,7 @@ a {
   text-decoration: none;
 }
 
+/* END GREEN BOX */
 @media (min-width: 522px) {
   body {
     width: 100%;
