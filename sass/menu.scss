@@ -236,7 +236,7 @@ footer a {
 @keyframes stroke-animation {
   100% {
     fill: #ff79da;
-    stroke: none;
+    stroke: #ff79da;
   }
 }
 
@@ -252,7 +252,7 @@ footer a {
   height: 70px;
   border-radius: 15px;
   background-color: white;
-  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 10%);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.174);
   margin-bottom: 15px;
 }
 
