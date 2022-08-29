@@ -586,7 +586,7 @@ a {
 }
 
 /* END GREEN BOX */
-@media (min-width: 522px) {
+@media (min-width: 560px) {
   body {
     width: 100%;
   }
@@ -653,6 +653,93 @@ a {
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 0px;
+  }
+}
+
+@media (min-width: 353px) and (max-width: 559px) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .location {
+    width: 100%;
+    padding: 0px;
+    height: 40px;
+  }
+  form .fa-location-dot {
+    padding: 2px 20px;
+    margin-top: 10px;
+  }
+  .textlocation {
+    margin-top: 10px;
+  }
+  form {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 55px;
+  }
+  h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  .greybutton {
+    width: 50%;
+  }
+  main {
+    width: 100%;
+  }
+  .menu {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    width: 100%;
+    padding: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #logofooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .footertext {
+    width: 270px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  footer a {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-left: 40px;
   }
 }
 /*# sourceMappingURL=index.css.map */
