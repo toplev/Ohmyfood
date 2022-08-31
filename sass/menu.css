@@ -3,6 +3,8 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* START HEADER */
@@ -614,7 +616,7 @@ footer a {
   }
 }
 
-@media (min-width: 353px) and (max-width: 569px) {
+@media (min-width: 376px) and (max-width: 569px) {
   body {
     width: 100%;
     margin: auto;
@@ -648,7 +650,7 @@ footer a {
     background-color: #27e8a7;
   }
   .menu {
-    margin-left: 10px;
+    margin-left: 0px;
   }
   h2 {
     display: -webkit-box;
@@ -713,14 +715,68 @@ footer a {
   }
 }
 
-@media (min-width: 100px) and (max-width: 352px) {
+@media (min-width: 351px) and (max-width: 375px) {
   body {
     width: 100%;
     margin-top: 0px;
     margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  header {
+    width: 100%;
+  }
+  article {
+    width: 100%;
   }
   .child-one {
-    height: 330px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .child-two {
+    height: 65px;
+    width: 100%;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 0px;
+    padding-top: 5px;
+  }
+  nav {
+    width: 100%;
+  }
+  .child-three {
+    width: 100%;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .button {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    padding: 0px;
+  }
+  #logofooter {
+    margin-left: 0px;
+  }
+  .footertext {
+    margin-right: -20px;
+  }
+  .fa-utensils {
+    margin-left: -15px;
+  }
+  .fa-handshake-angle {
+    margin-left: -17px;
+  }
+}
+
+@media (min-width: 912px) {
+  .child-one {
+    width: 100%;
+    height: 300px;
   }
 }
 /*# sourceMappingURL=menu.css.map */
